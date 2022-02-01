@@ -10,7 +10,7 @@ float my_sqrt(int n)
 {
   double start,end,mid;
   start=0,end=n;
-  while((end-start)>=0.0000)
+  while((end-start)>=0.00001)
   {
     mid=(start+end)/2;
     if(mid*mid<n)
